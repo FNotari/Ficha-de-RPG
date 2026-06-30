@@ -61,3 +61,5 @@ class MainWindow(QMainWindow):
         
         #Aplica layout no widget central
         central_widget.setLayout(layout)
+        
+        
