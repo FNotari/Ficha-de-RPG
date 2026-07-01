@@ -1,11 +1,12 @@
 import sys
 
 from PySide6.QtWidgets import QApplication
-from ui.main_window import MainWindow
+
+from interface.ficha_personagem import FichaPersonagem
 
 app = QApplication(sys.argv)
 
-janela = MainWindow()
+janela = FichaPersonagem()
 janela.show()
 
-sys.exit(app.exec())
+app.exec()
